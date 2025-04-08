@@ -1,4 +1,5 @@
 import './styles/reset.css';
+import './styles/scss/App.scss';
 import Introduction from './components/Introduction';
 import Ingredients from './components/Ingredients';
 import Instructions from './components/Instructions';
