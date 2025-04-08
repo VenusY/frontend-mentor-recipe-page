@@ -8,10 +8,18 @@ import Nutrition from './components/Nutrition';
 export default function App() {
   return (
     <div className='card'>
-      <Introduction />
-      <Ingredients />
-      <Instructions />
-      <Nutrition />
+      <img
+        src={require('./assets/images/image-omelette.jpeg')}
+        alt='Omelette'
+        className='hero-image'
+      />
+
+      <main className='card__body'>
+        <Introduction />
+        <Ingredients />
+        <Instructions />
+        <Nutrition />
+      </main>
     </div>
   );
 }
