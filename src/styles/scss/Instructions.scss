@@ -1,0 +1,27 @@
+@use './util' as u;
+
+.instructions {
+  &__list {
+    margin-left: 25px;
+    list-style-type: decimal;
+  }
+
+  &__list-item {
+    &::marker {
+      font-weight: 700;
+      color: var(--brown);
+    }
+
+    &:not(:last-child) {
+      margin-bottom: u.rem(8);
+    }
+  }
+
+  &__text {
+    margin-left: 15px;
+  }
+
+  &__instruction {
+    font-weight: 700;
+  }
+}
