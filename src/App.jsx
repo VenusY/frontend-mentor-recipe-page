@@ -1,3 +1,4 @@
+import './styles/reset.css';
 import Introduction from './components/Introduction';
 import Ingredients from './components/Ingredients';
 import Instructions from './components/Instructions';
