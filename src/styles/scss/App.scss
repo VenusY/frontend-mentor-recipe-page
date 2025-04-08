@@ -1,3 +1,5 @@
+@use './util' as u;
+
 @font-face {
   font-family: 'Young Serif';
   src: url('../../assets/fonts/young-serif/YoungSerif-Regular.ttf')
@@ -22,4 +24,20 @@
 
   --ff-young-serif: 'Young Serif', serif;
   --ff-outfit: 'Outfit', sans-serif;
+}
+
+.heading {
+  font-family: var(--ff-young-serif);
+  color: var(--brown);
+}
+
+.paragraph {
+  font-family: var(--ff-outfit);
+  color: var(--stone-600);
+}
+
+.card {
+  &__body {
+    padding: 32px;
+  }
 }
