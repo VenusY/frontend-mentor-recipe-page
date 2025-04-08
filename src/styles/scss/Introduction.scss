@@ -1,0 +1,52 @@
+@use './util' as u;
+
+.introduction {
+  &__heading {
+    margin-bottom: u.rem(24);
+    font-family: var(--ff-young-serif);
+    font-size: u.rem(36);
+    color: var(--stone-900);
+    line-height: 1;
+  }
+
+  &__description {
+    margin-bottom: u.rem(36);
+  }
+}
+
+.time {
+  padding: 20px 24px;
+  background: var(--rose-50);
+  border-radius: 15px;
+
+  &__heading {
+    margin-bottom: u.rem(14);
+    font-family: var(--ff-outfit);
+    font-size: u.rem(20);
+    font-weight: 600;
+    color: var(--rose-800);
+    line-height: 1.2;
+  }
+
+  &__list-item {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+
+    &:not(:last-child) {
+      margin-bottom: u.rem(8);
+    }
+  }
+
+  &__list-marker {
+    width: 4px;
+    height: 4px;
+    margin-left: 8px;
+    background: var(--rose-800);
+    border-radius: 50%;
+  }
+
+  &__category {
+    font-weight: 700;
+  }
+}
