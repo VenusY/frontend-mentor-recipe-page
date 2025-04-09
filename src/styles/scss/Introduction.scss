@@ -53,3 +53,15 @@
     font-weight: 700;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .introduction {
+    &__heading {
+      font-size: u.rem(42);
+    }
+  }
+
+  .time {
+    padding: 25px 28px 28px 28px;
+  }
+}
