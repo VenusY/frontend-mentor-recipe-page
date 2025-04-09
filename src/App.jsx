@@ -11,7 +11,7 @@ export default function App() {
       <img
         src={require('./assets/images/image-omelette.jpeg')}
         alt='Omelette'
-        className='hero-image'
+        className='card__image'
       />
 
       <main className='card__body'>
