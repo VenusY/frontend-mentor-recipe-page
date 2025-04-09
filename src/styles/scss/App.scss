@@ -42,4 +42,12 @@
   &__body {
     padding: 32px;
   }
+
+  &__section {
+    &:not(:last-child) {
+      padding-bottom: 30px;
+      margin-bottom: 26px;
+      border-bottom: 1px solid var(--stone-150);
+    }
+  }
 }
