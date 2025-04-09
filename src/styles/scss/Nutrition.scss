@@ -1,0 +1,35 @@
+@use './util' as u;
+
+.nutrition {
+  &__description {
+    margin-bottom: u.rem(14);
+  }
+}
+
+.nutrition-table {
+  width: 100%;
+  text-align: left;
+
+  &__row {
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--stone-150);
+    }
+  }
+
+  &__category,
+  &__value {
+    width: 50%;
+    padding-block: 10px;
+  }
+
+  &__category {
+    padding-left: 32px;
+  }
+
+  &__value {
+    padding-left: 8px;
+    font-family: var(--ff-outfit);
+    font-weight: 700;
+    color: var(--brown);
+  }
+}
