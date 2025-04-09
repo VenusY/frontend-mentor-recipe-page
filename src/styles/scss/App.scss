@@ -63,9 +63,9 @@
   .card {
     width: 736px;
     margin-inline: auto;
-    padding: 40px;
+    padding: 40px 40px 30px 40px;
     background: var(--white);
-    border-radius: 20px;
+    border-radius: 25px;
 
     &__image {
       margin-bottom: u.rem(40);
