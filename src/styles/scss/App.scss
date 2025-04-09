@@ -40,7 +40,8 @@
 
 .card {
   &__body {
-    padding: 32px;
+    padding-block: 40px 30px;
+    padding-inline: 32px;
   }
 
   &__section {
