@@ -1,6 +1,6 @@
 # Recipe Page
 
-A solution to the Frontend Mentor recipe page challenge built using React and Sass,and set up using npm and Webpack.
+A solution to the Frontend Mentor recipe page challenge built using React and Sass, and set up using npm and Webpack.
 
 ## Table of Contents
 
