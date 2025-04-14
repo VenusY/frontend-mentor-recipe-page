@@ -12,19 +12,27 @@ export default function Nutrition() {
       <table className='nutrition-table'>
         <tbody className='nutrition-table__body'>
           <tr className='nutrition-table__row'>
-            <th className='nutrition-table__category paragraph'>Calories</th>
+            <th className='nutrition-table__category paragraph' scope='row'>
+              Calories
+            </th>
             <td className='nutrition-table__value'>277kcal</td>
           </tr>
           <tr className='nutrition-table__row'>
-            <th className='nutrition-table__category paragraph'>Carbs</th>
+            <th className='nutrition-table__category paragraph' scope='row'>
+              Carbs
+            </th>
             <td className='nutrition-table__value'>0g</td>
           </tr>
           <tr className='nutrition-table__row'>
-            <th className='nutrition-table__category paragraph'>Protein</th>
+            <th className='nutrition-table__category paragraph' scope='row'>
+              Protein
+            </th>
             <td className='nutrition-table__value'>20g</td>
           </tr>
           <tr className='nutrition-table__row'>
-            <th className='nutrition-table__category paragraph'>Fat</th>
+            <th className='nutrition-table__category paragraph' scope='row'>
+              Fat
+            </th>
             <td className='nutrition-table__value'>22g</td>
           </tr>
         </tbody>
